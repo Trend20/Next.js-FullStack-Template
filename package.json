@@ -1,7 +1,16 @@
 {
   "name": "next-template",
+  "author": "DevEnock",
+  "description": "A template for creating a production-ready fullstack Next.js application",
   "version": "0.1.0",
   "private": true,
+  "license" : "MIT",
+  "homepage": "YOUR_GIT_REPO_URL",
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
