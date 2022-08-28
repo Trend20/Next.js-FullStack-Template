@@ -4,8 +4,8 @@
   "description": "A template for creating a production-ready fullstack Next.js application",
   "version": "0.1.0",
   "private": true,
-  "license" : "MIT",
-  "homepage": "YOUR_GIT_REPO_URL",
+  "license": "MIT",
+  "homepage": "https://github.com/Trend20/Next.js-FullStack-Template",
   "engines": {
     "node": ">=16.0.0",
     "yarn": ">=1.22.0",
@@ -15,7 +15,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "12.2.5",
@@ -28,6 +29,7 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
+    "prettier": "^2.7.1",
     "typescript": "4.8.2"
   }
 }
